@@ -1,0 +1,113 @@
+#main {
+  font-family: 'Cormorant Garamond', serif;
+}
+/* hero section */
+#hero {
+  display: flex;
+  justify-content: center;
+  background-image: url('../images/yellowstone.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 40rem;
+  font-weight: 100;
+  align-items: center;
+}
+
+#hero > h3 {
+  font-size: 1.5em;
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+
+#hero > div {
+  color: white;
+  font-weight: 100;
+}
+
+#hero p {
+  margin: 0.3rem;
+}
+#hero > div p:nth-child(1) {
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-size: 6rem;
+}
+#hero > div p:nth-child(2) {
+  font-size: 3rem;
+}
+/* #hero > div h2 {
+  margin: 1rem 0;
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+#hero > div h3 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+#hero > div span {
+  font-weight: bold;
+} */
+/* about section  */
+#about {
+  background: #edeeee;
+  display: flex;
+  justify-content: center;
+}
+#about h2,
+#projects h2 {
+  font-weight: 100;
+  /* font-family: cursive; */
+  font-size: 3rem;
+  margin: 0;
+}
+#about > div:nth-child(1) {
+  text-align: center;
+}
+#about > div {
+  padding: 1rem;
+  min-height: 20rem;
+}
+
+#about > div > p {
+  width: 60%;
+  font-size: 1.4rem;
+}
+#about > div:nth-child(2) {
+  width: 50%;
+}
+
+#about > div > img {
+  max-width: 100%;
+}
+
+/* projects section */
+
+#projects {
+  background: #2a6868;
+}
+#project-wrapper {
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#project-wrapper > div {
+  width: 40%;
+  background: #edeeee;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 3px grey;
+}
+
+#projects h2 {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+#project-wrapper > div img {
+  width: 100%;
+  height: 16rem;
+}
