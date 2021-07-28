@@ -84,7 +84,9 @@
 /* projects section */
 
 #projects {
-  background: #2a6868;
+  /* background: #2a6868; */
+  background-image: url('../images/teal2.jpeg');
+  background-size: cover;
 }
 #project-wrapper {
   padding: 0.5rem;
