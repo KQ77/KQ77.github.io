@@ -11,16 +11,13 @@ const App = (props) => {
   return (
     <div id="main">
       <Navbar fixed="top" expand="lg">
-        <Navbar.Brand
-          style={{
-            margin: 'auto 1.5rem',
-            color: 'white',
-            fontWeight: 'bold',
-            fontSize: '2rem',
-            fontFamily: 'cursive',
-          }}
-        >
-          KQ
+        <Navbar.Brand>
+          <img
+            style={{ margin: 'auto 1.5rem' }}
+            height="50px"
+            width="auto"
+            src="/images/kqicon.png"
+          ></img>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse style={{ color: 'white' }}>
@@ -30,23 +27,25 @@ const App = (props) => {
                 className="text-light"
                 style={{
                   margin: 'auto .5rem',
-                  fontSize: '1.5rem',
+                  fontSize: '1.2rem',
+                  fontWeight: 'bold',
                 }}
                 href="#about"
               >
-                About
+                ABOUT
               </Nav.Link>
               <Nav.Link
                 style={{
                   margin: 'auto .5rem',
                   color: 'white',
-                  fontSize: '1.5rem',
+                  fontSize: '1.2rem',
+                  fontWeight: 'bold',
                 }}
                 href="#projects"
               >
-                Projects
+                PROJECTS
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 style={{
                   margin: 'auto .5rem',
                   color: 'white',
@@ -55,16 +54,17 @@ const App = (props) => {
                 href="/resume"
               >
                 Resume
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 style={{
                   margin: 'auto .5rem',
                   color: 'white',
-                  fontSize: '1.5rem',
+                  fontSize: '1.2rem',
+                  fontWeight: 'bold',
                 }}
-                href=""
+                href="mailto: katequinn7@gmail.com"
               >
-                Contact
+                CONTACT
               </Nav.Link>
             </Nav>
           </Container>

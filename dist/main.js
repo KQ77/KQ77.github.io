@@ -51997,15 +51997,14 @@ var App = function App(props) {
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar, {
     fixed: "top",
     expand: "lg"
-  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Brand, {
+  }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Brand, null, /*#__PURE__*/_react["default"].createElement("img", {
     style: {
-      margin: 'auto 1.5rem',
-      color: 'white',
-      fontWeight: 'bold',
-      fontSize: '2rem',
-      fontFamily: 'cursive'
-    }
-  }, "KQ"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Toggle, null), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Collapse, {
+      margin: 'auto 1.5rem'
+    },
+    height: "50px",
+    width: "auto",
+    src: "/images/kqicon.png"
+  })), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Toggle, null), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar.Collapse, {
     style: {
       color: 'white'
     }
@@ -52015,31 +52014,27 @@ var App = function App(props) {
     className: "text-light",
     style: {
       margin: 'auto .5rem',
-      fontSize: '1.5rem'
+      fontSize: '1.2rem',
+      fontWeight: 'bold'
     },
     href: "#about"
-  }, "About"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav.Link, {
+  }, "ABOUT"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav.Link, {
     style: {
       margin: 'auto .5rem',
       color: 'white',
-      fontSize: '1.5rem'
+      fontSize: '1.2rem',
+      fontWeight: 'bold'
     },
     href: "#projects"
-  }, "Projects"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav.Link, {
+  }, "PROJECTS"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav.Link, {
     style: {
       margin: 'auto .5rem',
       color: 'white',
-      fontSize: '1.5rem'
+      fontSize: '1.2rem',
+      fontWeight: 'bold'
     },
-    href: "/resume"
-  }, "Resume"), /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Nav.Link, {
-    style: {
-      margin: 'auto .5rem',
-      color: 'white',
-      fontSize: '1.5rem'
-    },
-    href: ""
-  }, "Contact"))))), /*#__PURE__*/_react["default"].createElement("section", {
+    href: "mailto: katequinn7@gmail.com"
+  }, "CONTACT"))))), /*#__PURE__*/_react["default"].createElement("section", {
     id: "hero"
   }, /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("p", null, "Kate Quinn"), /*#__PURE__*/_react["default"].createElement("p", null, "Software developer"))), /*#__PURE__*/_react["default"].createElement("section", {
     id: "about"
