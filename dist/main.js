@@ -52040,7 +52040,7 @@ var App = function App(props) {
     id: "about"
   }, /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("img", {
     src: "/images/kate3.png"
-  })), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h2", null, "About Me"), /*#__PURE__*/_react["default"].createElement("p", null, "Physical therapist turned software engineer. I've taken a love of problem-solving from humans to code. I truly love the idea of lifelong learning, and I look forward to my next project pushing that even futher."))), /*#__PURE__*/_react["default"].createElement("section", {
+  })), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h2", null, "About Me"), /*#__PURE__*/_react["default"].createElement("p", null, "As a pysical therapist turned software engineer, I've taken a love of problem-solving from humans to code. I truly love the idea of lifelong learning, and I look forward to my next project pushing that even futher."))), /*#__PURE__*/_react["default"].createElement("section", {
     id: "projects"
   }, /*#__PURE__*/_react["default"].createElement("h2", null, "Projects"), /*#__PURE__*/_react["default"].createElement("div", {
     id: "project-wrapper"
