@@ -83,10 +83,10 @@ const App = (props) => {
         <div>
           <h2>About Me</h2>
           <p>
-            Physical therapist turned software engineer. I've taken my love of
+            Physical therapist turned software engineer. I've taken a love of
             problem-solving from humans to code. I truly love the idea of
-            lifelong learning, and I'm looking forward to my next project
-            pushing that even futher.
+            lifelong learning, and I look forward to my next project pushing
+            that even futher.
           </p>
         </div>
       </section>
