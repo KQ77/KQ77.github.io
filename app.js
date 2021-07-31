@@ -2,12 +2,74 @@ const { projects } = require('./projectData');
 console.log(projects, 'projects');
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Container, Nav, Carousel } from 'react-bootstrap';
 import { Router, Link } from 'react-router-dom';
 import './css/App.css';
 
 const App = (props) => {
   return (
     <div id="main">
+      <Navbar fixed="top" expand="lg">
+        <Navbar.Brand
+          style={{
+            margin: 'auto 1.5rem',
+            color: 'white',
+            fontWeight: 'bold',
+            fontSize: '2rem',
+            fontFamily: 'cursive',
+          }}
+        >
+          KQ
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse style={{ color: 'white' }}>
+          <Container>
+            <Nav className="justify-content-end">
+              <Nav.Link
+                className="text-light"
+                style={{
+                  margin: 'auto .5rem',
+                  fontSize: '1.5rem',
+                }}
+                href="#about"
+              >
+                About
+              </Nav.Link>
+              <Nav.Link
+                style={{
+                  margin: 'auto .5rem',
+                  color: 'white',
+                  fontSize: '1.5rem',
+                }}
+                href="#projects"
+              >
+                Projects
+              </Nav.Link>
+              <Nav.Link
+                style={{
+                  margin: 'auto .5rem',
+                  color: 'white',
+                  fontSize: '1.5rem',
+                }}
+                href="/resume"
+              >
+                Resume
+              </Nav.Link>
+              <Nav.Link
+                style={{
+                  margin: 'auto .5rem',
+                  color: 'white',
+                  fontSize: '1.5rem',
+                }}
+                href=""
+              >
+                Contact
+              </Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar.Collapse>
+      </Navbar>
       <section id="hero">
         <div>
           <p>Kate Quinn</p>
@@ -37,7 +99,17 @@ const App = (props) => {
               <p>{project.description}</p>
               <div>
                 <a href={project.liveUrl}>
-                  <img src={project.imageUrl}></img>
+                  {project.images.length > 1 ? (
+                    <Carousel variant="dark">
+                      {project.images.map((imgSrc) => (
+                        <Carousel.Item>
+                          <img className="d-block w-100" src={imgSrc} />
+                        </Carousel.Item>
+                      ))}
+                    </Carousel>
+                  ) : (
+                    <img src={project.images[0]}></img>
+                  )}
                 </a>
               </div>
               {project.liveUrl ? (
