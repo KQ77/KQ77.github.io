@@ -76,7 +76,7 @@ const App = (props) => {
           <p>Software developer</p>
         </div>
       </section>
-      <section id="about">
+      <section id="about" style={{ maxHeight: '30rem' }}>
         <div>
           <img src="/images/kateBW.jpg"></img>
         </div>
