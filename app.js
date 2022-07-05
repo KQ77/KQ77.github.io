@@ -84,9 +84,9 @@ const App = (props) => {
           <h2>About Me</h2>
           <p>
             As a pysical therapist turned software engineer, I'm taking a love
-            of problem-solving from humans to code. I truly love the idea of
-            lifelong learning, and I look forward to my next project pushing
-            that even futher.
+            of problem-solving from humans to code. I love the idea of lifelong
+            learning, and I look forward to my next project pushing that even
+            futher.
           </p>
         </div>
       </section>
