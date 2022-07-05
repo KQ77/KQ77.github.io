@@ -78,7 +78,7 @@ const App = (props) => {
       </section>
       <section id="about">
         <div>
-          <img src="/images/kate3.png"></img>
+          <img src="/images/kateBW.jpg"></img>
         </div>
         <div>
           <h2>About Me</h2>
