@@ -3687,7 +3687,7 @@ var projects = {
     description: 'Early group project: E-commerce site selling house plants',
     technologies: 'React, React-Router, React-Redux, Express, Postgres, Sequelize',
     images: ['/images/kavakoro.png', '/images/kavacart.png'],
-    liveUrl: 'kavakoro.com',
+    // liveUrl: 'kavakoro.com',
     githubUrl: 'https://github.com/Kavakoro/plant-store.git'
   }]
 };
