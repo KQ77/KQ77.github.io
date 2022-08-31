@@ -3658,72 +3658,39 @@ exports.projects = void 0;
 var projects = {
   Professional: [{
     title: 'AUTOBOT',
-    description: 'PRICELINE.COM Internal Tool Used To Run Automated Tests (sole front-end developer, and assisted with backend API)',
-    images: ['/images/autobot1.png', '/images/autobot3.png', '/images/autobot4.png', '/images/autobot5.png', '/images/autobot6.png', '/images/autobot7.png']
+    description: 'PRICELINE.COM Internal Tool Used To Run Automated Tests: sole front-end developer, and assisted with backend API',
+    technologies: 'Next.js with React, Recoil.js, Chakra-UI-React',
+    images: ['/images/autobot8.png', '/images/autobot1.png', '/images/autobot3.png', '/images/autobot4.png', '/images/autobot5.png', '/images/autobot6.png', '/images/autobot7.png']
   }],
   Personal: [{
     title: 'Q BOOK CLUBS',
     description: 'Solo project: Inspired by Amazon Book Clubs, but with additional user features',
+    technologies: 'React, React-Router, React-Redux, Express, Webpack, Postgres, Sequelize, JWT',
     images: ['/images/qbshot.png'],
     githubUrl: 'https://github.com/KQ77/reads-and-weeds.git',
     liveUrl: 'http://q-bookclubs.herokuapp.com/'
   }, {
     title: 'PUZZLE BREAK',
     description: 'Group Project: Design a custom, virtual escape room, or play a pre-made game',
+    technologies: 'React, React-Router, React-Redux, Webpack, Express, Postgres, Sequelize, JWT',
     images: ['/images/puzzlethumbnail.png'],
     githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
     videoUrl: 'https://youtu.be/qO-k2z-BG_4'
   }, {
     title: 'Q-BOT: THE SLACK BOT WHO CARES',
-    description: 'Solo 6-day hackathon: custom slack bot with health & wellness in mind - integrates with FitBot',
+    description: 'Solo 6-day hackathon: custom slack bot with health & wellness in mind',
+    technologies: 'Express, Slack SDK with Bolt framwork, Fitbit Integration with OAuth',
     images: ['/images/slackbot.png', '/images/botshot2.png', '/images/botshot3.png', '/images/commandlist.png'],
     githubUrl: 'https://github.com/KQ77/Q-Bot.git'
   }, {
     title: "KAVAKORO'S PLANT SHOP",
     description: 'Early group project: E-commerce site selling house plants',
+    technologies: 'React, React-Router, React-Redux, Express, Postgres, Sequelize',
     images: ['/images/kavakoro.png', '/images/kavacart.png'],
     liveUrl: 'kavakoro.com',
     githubUrl: 'https://github.com/Kavakoro/plant-store.git'
   }]
-}; // export const projects = [
-//   {
-//     title: 'Q BOOK CLUBS',
-//     description:
-//       'Solo project: Inspired by Amazon Book Clubs, but with additional user features',
-//     images: ['/images/qbshot.png'],
-//     githubUrl: 'https://github.com/KQ77/reads-and-weeds.git',
-//     liveUrl: 'http://q-bookclubs.herokuapp.com/',
-//   },
-//   {
-//     title: 'PUZZLE BREAK',
-//     description:
-//       'Group Project: Design a custom, virtual escape room, or play a pre-made game',
-//     images: ['/images/puzzlethumbnail.png'],
-//     githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
-//     liveUrl: '',
-//     videoUrl: 'https://youtu.be/qO-k2z-BG_4',
-//   },
-//   {
-//     title: 'Q-BOT: THE SLACK BOT WHO CARES',
-//     description:
-//       'Solo 6-day hackathon: custom slack bot with health & wellness in mind - integrates with FitBot',
-//     images: [
-//       '/images/slackbot.png',
-//       '/images/botshot2.png',
-//       '/images/botshot3.png',
-//       '/images/commandlist.png',
-//     ],
-//     githubUrl: 'https://github.com/KQ77/Q-Bot.git',
-//   },
-//   {
-//     title: `KAVAKORO'S PLANT SHOP`,
-//     description: 'Early group project: E-commerce site selling house plants',
-//     images: ['/images/kavakoro.png', '/images/kavacart.png'],
-//     liveUrl: 'kavakoro.com',
-//     githubUrl: 'https://github.com/Kavakoro/plant-store.git',
-//   },
-// ];
-
+};
 exports.projects = projects;
 
 /***/ }),
@@ -3824,7 +3791,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_images_yellowstone_jpg__WEBPACK_IMPORTED_MODULE_3__.default);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_images_teal2_jpeg__WEBPACK_IMPORTED_MODULE_4__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 70%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: 35rem;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n}\n\nhr {\n  color: white;\n}\n", "",{"version":3,"sources":["webpack://./css/App.css"],"names":[],"mappings":"AAAA;EACE,wCAAwC;AAC1C;AACA,iBAAiB;AACjB;EACE,aAAa;EACb,uBAAuB;EACvB,yDAAkD;EAClD,sBAAsB;EACtB,2BAA2B;EAC3B,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,cAAc;AAChB;AACA;EACE,4EAA4E;EAC5E,eAAe;AACjB;AACA;EACE,eAAe;AACjB;;AAEA,mBAAmB;AACnB;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;AACzB;AACA;;EAEE,gBAAgB;EAChB,0BAA0B;EAC1B,eAAe;EACf,iBAAiB;AACnB;AACA;EACE,kBAAkB;AACpB;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,UAAU;EACV,iBAAiB;AACnB;AACA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA,qBAAqB;;AAErB;EACE,yBAAyB;EACzB,yDAA6C;EAC7C,sBAAsB;EACtB,YAAY;EACZ,kBAAkB;AACpB;AACA;EACE,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;EAClB,4BAA4B;AAC9B;AACA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;AACnB;;AAEA;;GAEG;AACH;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;AACd","sourcesContent":["#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url('../images/yellowstone.jpg');\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url('../images/teal2.jpeg');\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 70%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: 35rem;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n}\n\nhr {\n  color: white;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 80%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: 35rem;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n  width: 70%;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n", "",{"version":3,"sources":["webpack://./css/App.css"],"names":[],"mappings":"AAAA;EACE,wCAAwC;AAC1C;AACA,iBAAiB;AACjB;EACE,aAAa;EACb,uBAAuB;EACvB,yDAAkD;EAClD,sBAAsB;EACtB,2BAA2B;EAC3B,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,cAAc;AAChB;AACA;EACE,4EAA4E;EAC5E,eAAe;AACjB;AACA;EACE,eAAe;AACjB;;AAEA,mBAAmB;AACnB;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;AACzB;AACA;;EAEE,gBAAgB;EAChB,0BAA0B;EAC1B,eAAe;EACf,iBAAiB;AACnB;AACA;EACE,kBAAkB;AACpB;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,UAAU;EACV,iBAAiB;AACnB;AACA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA,qBAAqB;;AAErB;EACE,yBAAyB;EACzB,yDAA6C;EAC7C,sBAAsB;EACtB,YAAY;EACZ,kBAAkB;AACpB;AACA;EACE,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;EAClB,4BAA4B;AAC9B;AACA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;AACnB;;AAEA;;GAEG;AACH;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,UAAU;EACV,YAAY;AACd;;AAEA;EACE,YAAY;AACd","sourcesContent":["#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url('../images/yellowstone.jpg');\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url('../images/teal2.jpeg');\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 80%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: 35rem;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n  width: 70%;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -49014,7 +48981,7 @@ var App = function App() {
       return /*#__PURE__*/_react["default"].createElement("div", {
         id: "project-info",
         key: idx
-      }, /*#__PURE__*/_react["default"].createElement("h2", null, project.title), /*#__PURE__*/_react["default"].createElement("p", null, project.description), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("a", {
+      }, /*#__PURE__*/_react["default"].createElement("h2", null, project.title), /*#__PURE__*/_react["default"].createElement("p", null, project.description), /*#__PURE__*/_react["default"].createElement("p", null, project.technologies), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("a", {
         href: project.liveUrl
       }, project.images.length > 1 ? /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Carousel, {
         variant: "dark"

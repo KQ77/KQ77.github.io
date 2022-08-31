@@ -87,7 +87,7 @@
 }
 
 #project-wrapper > div {
-  width: 70%;
+  width: 80%;
   background: #edeeee;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -118,6 +118,8 @@
 
 #project-info > p {
   font-size: 1.2rem;
+  width: 70%;
+  margin: auto;
 }
 
 hr {

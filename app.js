@@ -94,6 +94,7 @@ const App = () => {
                   <div id="project-info" key={idx}>
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
+                    <p>{project.technologies}</p>
                     <div>
                       <a href={project.liveUrl}>
                         {project.images.length > 1 ? (
