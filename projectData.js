@@ -4,7 +4,7 @@ export const projects = {
       title: 'AUTOBOT',
       description:
         'PRICELINE.COM Internal Tool Used To Run Automated Tests: sole front-end developer, and assisted with backend API',
-      technologies: 'Next.js with React, Recoil.js, Chakra-UI-React',
+      technologies: 'NextJS with React, RecoilJS, Chakra-UI-React',
       images: [
         '/images/autobot8.png',
         '/images/autobot1.png',
@@ -49,6 +49,7 @@ export const projects = {
         '/images/botshot3.png',
         '/images/commandlist.png',
       ],
+      liveUrl: 'http://puzzle-break.herokuapp.com/home',
       githubUrl: 'https://github.com/KQ77/Q-Bot.git',
     },
     {

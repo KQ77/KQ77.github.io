@@ -26,6 +26,7 @@ const App = () => {
               <Nav.Link
                 className="text-light"
                 style={{
+                  background: '#00000026',
                   margin: 'auto .5rem',
                   fontSize: '1.2rem',
                   fontWeight: 'bold',
@@ -36,6 +37,7 @@ const App = () => {
               </Nav.Link>
               <Nav.Link
                 style={{
+                  background: '#00000026',
                   margin: 'auto .5rem',
                   color: 'white',
                   fontSize: '1.2rem',
@@ -47,6 +49,7 @@ const App = () => {
               </Nav.Link>
               <Nav.Link
                 style={{
+                  background: '#00000026',
                   margin: 'auto .5rem',
                   color: 'white',
                   fontSize: '1.2rem',
@@ -111,11 +114,9 @@ const App = () => {
                       </a>
                     </div>
                     {project.liveUrl ? (
-                      <>
-                        <p>
-                          <a href={project.liveUrl}>view live site</a>
-                        </p>
-                      </>
+                      <p>
+                        <a href={project.liveUrl}>view live site</a>
+                      </p>
                     ) : (
                       ''
                     )}
