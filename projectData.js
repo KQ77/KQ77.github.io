@@ -35,6 +35,7 @@ export const projects = {
         'React, React-Router, React-Redux, Webpack, Express, Postgres, Sequelize, JWT',
       images: ['/images/puzzlethumbnail.png'],
       githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
+      liveUrl: 'http://puzzle-break.herokuapp.com/home',
       videoUrl: 'https://youtu.be/qO-k2z-BG_4',
     },
     {
@@ -49,7 +50,6 @@ export const projects = {
         '/images/botshot3.png',
         '/images/commandlist.png',
       ],
-      liveUrl: 'http://puzzle-break.herokuapp.com/home',
       githubUrl: 'https://github.com/KQ77/Q-Bot.git',
     },
     {

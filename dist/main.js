@@ -3675,13 +3675,13 @@ var projects = {
     technologies: 'React, React-Router, React-Redux, Webpack, Express, Postgres, Sequelize, JWT',
     images: ['/images/puzzlethumbnail.png'],
     githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
+    liveUrl: 'http://puzzle-break.herokuapp.com/home',
     videoUrl: 'https://youtu.be/qO-k2z-BG_4'
   }, {
     title: 'Q-BOT: THE SLACK BOT WHO CARES',
     description: 'Solo 6-day hackathon: custom slack bot with health & wellness in mind',
     technologies: 'Express, Slack SDK with Bolt framwork, Fitbit Integration with OAuth',
     images: ['/images/slackbot.png', '/images/botshot2.png', '/images/botshot3.png', '/images/commandlist.png'],
-    liveUrl: 'http://puzzle-break.herokuapp.com/home',
     githubUrl: 'https://github.com/KQ77/Q-Bot.git'
   }, {
     title: "KAVAKORO'S PLANT SHOP",
