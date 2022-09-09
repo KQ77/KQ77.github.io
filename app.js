@@ -1,6 +1,6 @@
 const { projects } = require('./projectData');
 console.log(projects, 'projects');
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, Carousel } from 'react-bootstrap';
@@ -8,6 +8,11 @@ import { Navbar, Container, Nav, Carousel } from 'react-bootstrap';
 import './css/App.css';
 
 const App = () => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const handleSelect = (index, length) => {
+    if (index === length - 1) setSelectedIndex(0);
+    else setSelectedIndex(index);
+  };
   return (
     <div id="main">
       <Navbar fixed="top" expand="lg">
@@ -87,44 +92,48 @@ const App = () => {
       </section>
       <section id="projects">
         <h2>Projects</h2>
-        <hr></hr>
         {Object.keys(projects).map((projectType, index) => (
-          <>
-            <div key={index}>
-              <h2>{projectType}</h2>
-              <div id="project-wrapper">
-                {projects[projectType].map((project, idx) => (
-                  <div id="project-info" key={idx}>
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
-                    <p>{project.technologies}</p>
-                    <div>
-                      <a href={project.liveUrl}>
-                        {project.images.length > 1 ? (
-                          <Carousel variant="dark">
-                            {project.images.map((imgSrc) => (
-                              <Carousel.Item>
-                                <img className="d-block w-100" src={imgSrc} />
-                              </Carousel.Item>
-                            ))}
-                          </Carousel>
-                        ) : (
-                          <img src={project.images[0]}></img>
-                        )}
-                      </a>
-                    </div>
+          <div key={index}>
+            <h2>{projectType}</h2>
+            <div id="project-wrapper">
+              {projects[projectType].map((project, idx) => (
+                <div id="project-info" key={idx}>
+                  <h2>{project.title}</h2>
+                  <p>{project.description}</p>
+                  <p>{project.technologies}</p>
+
+                  <a href={project.liveUrl || ''}>
+                    {project.images.length > 1 ? (
+                      <Carousel
+                        fade
+                        // activeIndex={selectedIndex}
+                        // onSelect={() => {
+                        //   () => handleSelect(idx, project.images.length);
+                        // }}
+                        variant="dark"
+                      >
+                        {project.images.map((imgSrc) => (
+                          <Carousel.Item>
+                            <img className="d-block w-100" src={imgSrc} />
+                          </Carousel.Item>
+                        ))}
+                      </Carousel>
+                    ) : (
+                      <img src={project.images[0]}></img>
+                    )}
+                  </a>
+
+                  <div id="links">
                     {project.liveUrl ? (
                       <p>
-                        <a href={project.liveUrl}>view live site</a>
+                        <a href={project.liveUrl}>live</a>
                       </p>
                     ) : (
                       ''
                     )}
                     {project.githubUrl ? (
                       <p>
-                        <a href={project.githubUrl}>
-                          view source code on github
-                        </a>
+                        <a href={project.githubUrl}>code</a>
                       </p>
                     ) : (
                       ''
@@ -132,20 +141,23 @@ const App = () => {
 
                     {project.videoUrl ? (
                       <p>
-                        <a href={project.videoUrl}>video presentation</a>
+                        <a href={project.videoUrl}>video</a>
                       </p>
                     ) : (
                       ''
                     )}
                   </div>
-                ))}
-                <hr></hr>
-              </div>
+                </div>
+              ))}
+              <hr></hr>
             </div>
-            <hr></hr>
-          </>
+          </div>
         ))}
       </section>
+      {/* <section id="contact">
+        <div>linkedIn</div>
+        <div>email</div>
+      </section> */}
     </div>
   );
 };

@@ -3515,26 +3515,6 @@ function useWillUnmount(fn) {
 
 /***/ }),
 
-/***/ "./images/teal2.jpeg":
-/*!***************************!*\
-  !*** ./images/teal2.jpeg ***!
-  \***************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports.default = void 0;
-
-var _default = __webpack_require__.p + "febd4145328cfaa2ea606be799ab5763.jpeg";
-
-exports.default = _default;
-
-/***/ }),
-
 /***/ "./images/yellowstone.jpg":
 /*!********************************!*\
   !*** ./images/yellowstone.jpg ***!
@@ -3662,7 +3642,7 @@ var projects = {
     technologies: 'NextJS with React, RecoilJS, Chakra-UI-React',
     images: ['/images/autobot8.png', '/images/autobot1.png', '/images/autobot3.png', '/images/autobot4.png', '/images/autobot5.png', '/images/autobot6.png', '/images/autobot7.png']
   }],
-  Personal: [{
+  'Personal / Academic': [{
     title: 'Q BOOK CLUBS',
     description: 'Solo project: Inspired by Amazon Book Clubs, but with additional user features',
     technologies: 'React, React-Router, React-Redux, Express, Webpack, Postgres, Sequelize, JWT',
@@ -3673,7 +3653,7 @@ var projects = {
     title: 'PUZZLE BREAK',
     description: 'Group Project: Design a custom, virtual escape room, or play a pre-made game',
     technologies: 'React, React-Router, React-Redux, Webpack, Express, Postgres, Sequelize, JWT',
-    images: ['/images/puzzlethumbnail.png'],
+    images: ['/images/puzzlethumbnail.png', '/images/puzzle-break2.png', '/images/puzzlebreak3.png'],
     githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
     liveUrl: 'http://puzzle-break.herokuapp.com/home',
     videoUrl: 'https://youtu.be/qO-k2z-BG_4'
@@ -3781,18 +3761,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _images_yellowstone_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/yellowstone.jpg */ "./images/yellowstone.jpg");
-/* harmony import */ var _images_teal2_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/teal2.jpeg */ "./images/teal2.jpeg");
 // Imports
-
 
 
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_images_yellowstone_jpg__WEBPACK_IMPORTED_MODULE_3__.default);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_images_teal2_jpeg__WEBPACK_IMPORTED_MODULE_4__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 80%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: auto;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n  width: 70%;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n", "",{"version":3,"sources":["webpack://./css/App.css"],"names":[],"mappings":"AAAA;EACE,wCAAwC;AAC1C;AACA,iBAAiB;AACjB;EACE,aAAa;EACb,uBAAuB;EACvB,yDAAkD;EAClD,sBAAsB;EACtB,2BAA2B;EAC3B,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,cAAc;AAChB;AACA;EACE,4EAA4E;EAC5E,eAAe;AACjB;AACA;EACE,eAAe;AACjB;;AAEA,mBAAmB;AACnB;EACE,mBAAmB;EACnB,aAAa;EACb,uBAAuB;AACzB;AACA;;EAEE,gBAAgB;EAChB,0BAA0B;EAC1B,eAAe;EACf,iBAAiB;AACnB;AACA;EACE,kBAAkB;AACpB;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,UAAU;EACV,iBAAiB;AACnB;AACA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA,qBAAqB;;AAErB;EACE,yBAAyB;EACzB,yDAA6C;EAC7C,sBAAsB;EACtB,YAAY;EACZ,kBAAkB;AACpB;AACA;EACE,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;EAClB,4BAA4B;AAC9B;AACA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;AACnB;;AAEA;;GAEG;AACH;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,UAAU;EACV,YAAY;AACd;;AAEA;EACE,YAAY;AACd","sourcesContent":["#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url('../images/yellowstone.jpg');\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: #edeeee;\n  display: flex;\n  justify-content: center;\n}\n#about h2,\n#projects h2 {\n  font-weight: 100;\n  /* font-family: cursive; */\n  font-size: 3rem;\n  margin: 1rem 0rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  /* background: #2a6868; */\n  background-image: url('../images/teal2.jpeg');\n  background-size: cover;\n  color: white;\n  text-align: center;\n}\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n}\n\n#project-wrapper > div {\n  width: 80%;\n  background: #edeeee;\n  padding: 1rem;\n  margin-bottom: 1rem;\n  text-align: center;\n  box-shadow: 1px 1px 3px grey;\n}\n#projects > h2 {\n  padding: 1rem;\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n/* #project-wrapper h3 {\n  color: black;\n} */\n#project-wrapper > div img {\n  width: 100%;\n  height: auto;\n}\n\n#project-info {\n  color: black;\n  font-weight: bold;\n}\n\n#project-info > p {\n  font-size: 1.2rem;\n  width: 70%;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: lightgrey;\n  display: flex;\n  justify-content: center;\n}\n#about h2 {\n  font-weight: 100;\n  font-size: 3rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  background: rgb(253, 253, 253);\n  /* background-image: url('../images/teal2.jpeg'); */\n  background-size: cover;\n  color: rgb(120, 116, 116);\n  /* text-align: center; */\n}\n\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: flex-start;\n}\n\n#project-wrapper > div {\n  width: 27%;\n  /* height: 25rem; */\n  background: #edeeee;\n  padding: 0.5rem;\n  margin: 1rem auto;\n  text-align: center;\n  /* box-shadow: 1px 1px 3px grey; */\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n  padding: 1rem;\n}\n#projects > h2 {\n  text-align: center;\n  padding: 3rem;\n  font-size: 4rem;\n}\n\n#project-wrapper > div img {\n  height: 15rem;\n  width: 100%;\n}\n\n#project-info {\n  color: rgb(90, 90, 90);\n  font-weight: bold;\n}\n/* #project-info > div:nth-child(1) {\n height: 20rem;\n} */\n#project-info h2 {\n  font-size: 1.5rem;\n}\n#project-info > p {\n  font-size: 1.1rem;\n  padding: 0.3rem;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n\n.d-block {\n  height: 15rem;\n}\n\n#links {\n  margin: 0.5rem;\n  align-items: center;\n  height: fit-content;\n  display: flex;\n  justify-content: space-evenly;\n  background: #edeeee;\n}\n\n.carousel-control-next-icon {\n  filter: none;\n}\n", "",{"version":3,"sources":["webpack://./css/App.css"],"names":[],"mappings":"AAAA;EACE,wCAAwC;AAC1C;AACA,iBAAiB;AACjB;EACE,aAAa;EACb,uBAAuB;EACvB,yDAAkD;EAClD,sBAAsB;EACtB,2BAA2B;EAC3B,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,cAAc;AAChB;AACA;EACE,4EAA4E;EAC5E,eAAe;AACjB;AACA;EACE,eAAe;AACjB;;AAEA,mBAAmB;AACnB;EACE,qBAAqB;EACrB,aAAa;EACb,uBAAuB;AACzB;AACA;EACE,gBAAgB;EAChB,eAAe;AACjB;AACA;EACE,kBAAkB;AACpB;AACA;EACE,UAAU;EACV,6BAA6B;AAC/B;;AAEA;EACE,UAAU;EACV,iBAAiB;AACnB;AACA;EACE,aAAa;AACf;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA,qBAAqB;;AAErB;EACE,8BAA8B;EAC9B,mDAAmD;EACnD,sBAAsB;EACtB,yBAAyB;EACzB,wBAAwB;AAC1B;;AAEA;EACE,eAAe;EACf,aAAa;EACb,mBAAmB;EACnB,2BAA2B;AAC7B;;AAEA;EACE,UAAU;EACV,mBAAmB;EACnB,mBAAmB;EACnB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,kCAAkC;AACpC;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,aAAa;AACf;AACA;EACE,kBAAkB;EAClB,aAAa;EACb,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,iBAAiB;AACnB;AACA;;GAEG;AACH;EACE,iBAAiB;AACnB;AACA;EACE,iBAAiB;EACjB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,cAAc;EACd,mBAAmB;EACnB,mBAAmB;EACnB,aAAa;EACb,6BAA6B;EAC7B,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd","sourcesContent":["#main {\n  font-family: 'Cormorant Garamond', serif;\n}\n/* hero section */\n#hero {\n  display: flex;\n  justify-content: center;\n  background-image: url('../images/yellowstone.jpg');\n  background-size: cover;\n  background-position: center;\n  min-height: 40rem;\n  font-weight: 100;\n  align-items: center;\n}\n\n#hero > h3 {\n  font-size: 1.5em;\n  color: white;\n  letter-spacing: 0.1em;\n  font-weight: 100;\n}\n\n#hero > div {\n  color: white;\n  font-weight: 100;\n}\n\n#hero p {\n  margin: 0.3rem;\n}\n#hero > div p:nth-child(1) {\n  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */\n  font-size: 6rem;\n}\n#hero > div p:nth-child(2) {\n  font-size: 3rem;\n}\n\n/* about section  */\n#about {\n  background: lightgrey;\n  display: flex;\n  justify-content: center;\n}\n#about h2 {\n  font-weight: 100;\n  font-size: 3rem;\n}\n#about > div:nth-child(1) {\n  text-align: center;\n}\n#about > div {\n  width: 50%;\n  background-color: 'lightgrey';\n}\n\n#about > div > p {\n  width: 90%;\n  font-size: 1.4rem;\n}\n#about > div:nth-child(2) {\n  padding: 1rem;\n}\n\n#about > div > img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n/* projects section */\n\n#projects {\n  background: rgb(253, 253, 253);\n  /* background-image: url('../images/teal2.jpeg'); */\n  background-size: cover;\n  color: rgb(120, 116, 116);\n  /* text-align: center; */\n}\n\n#project-wrapper {\n  padding: 0.5rem;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: flex-start;\n}\n\n#project-wrapper > div {\n  width: 27%;\n  /* height: 25rem; */\n  background: #edeeee;\n  padding: 0.5rem;\n  margin: 1rem auto;\n  text-align: center;\n  /* box-shadow: 1px 1px 3px grey; */\n}\n\n#projects h2 {\n  text-align: center;\n  font-size: 2.5rem;\n  padding: 1rem;\n}\n#projects > h2 {\n  text-align: center;\n  padding: 3rem;\n  font-size: 4rem;\n}\n\n#project-wrapper > div img {\n  height: 15rem;\n  width: 100%;\n}\n\n#project-info {\n  color: rgb(90, 90, 90);\n  font-weight: bold;\n}\n/* #project-info > div:nth-child(1) {\n height: 20rem;\n} */\n#project-info h2 {\n  font-size: 1.5rem;\n}\n#project-info > p {\n  font-size: 1.1rem;\n  padding: 0.3rem;\n  margin: auto;\n}\n\nhr {\n  color: white;\n}\n\n.d-block {\n  height: 15rem;\n}\n\n#links {\n  margin: 0.5rem;\n  align-items: center;\n  height: fit-content;\n  display: flex;\n  justify-content: space-evenly;\n  background: #edeeee;\n}\n\n.carousel-control-next-icon {\n  filter: none;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -48902,7 +48879,9 @@ var __webpack_exports__ = {};
   \****************/
 
 
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
 
@@ -48914,12 +48893,37 @@ __webpack_require__(/*! ./css/App.css */ "./css/App.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 var _require = __webpack_require__(/*! ./projectData */ "./projectData.js"),
     projects = _require.projects;
 
 console.log(projects, 'projects');
 
 var App = function App() {
+  var _useState = (0, _react.useState)(0),
+      _useState2 = _slicedToArray(_useState, 2),
+      selectedIndex = _useState2[0],
+      setSelectedIndex = _useState2[1];
+
+  var handleSelect = function handleSelect(index, length) {
+    if (index === length - 1) setSelectedIndex(0);else setSelectedIndex(index);
+  };
+
   return /*#__PURE__*/_react["default"].createElement("div", {
     id: "main"
   }, /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Navbar, {
@@ -48976,8 +48980,8 @@ var App = function App() {
     src: "/images/kateBW.jpg"
   })), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h2", null, "About Me"), /*#__PURE__*/_react["default"].createElement("p", null, "As a pysical therapist turned software engineer, I've taken a love of problem-solving from humans to code."), /*#__PURE__*/_react["default"].createElement("p", null, "I'm commited to lifelong learning, and I look forward to my next project pushing that even futher."))), /*#__PURE__*/_react["default"].createElement("section", {
     id: "projects"
-  }, /*#__PURE__*/_react["default"].createElement("h2", null, "Projects"), /*#__PURE__*/_react["default"].createElement("hr", null), Object.keys(projects).map(function (projectType, index) {
-    return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("div", {
+  }, /*#__PURE__*/_react["default"].createElement("h2", null, "Projects"), Object.keys(projects).map(function (projectType, index) {
+    return /*#__PURE__*/_react["default"].createElement("div", {
       key: index
     }, /*#__PURE__*/_react["default"].createElement("h2", null, projectType), /*#__PURE__*/_react["default"].createElement("div", {
       id: "project-wrapper"
@@ -48985,9 +48989,14 @@ var App = function App() {
       return /*#__PURE__*/_react["default"].createElement("div", {
         id: "project-info",
         key: idx
-      }, /*#__PURE__*/_react["default"].createElement("h2", null, project.title), /*#__PURE__*/_react["default"].createElement("p", null, project.description), /*#__PURE__*/_react["default"].createElement("p", null, project.technologies), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("a", {
-        href: project.liveUrl
+      }, /*#__PURE__*/_react["default"].createElement("h2", null, project.title), /*#__PURE__*/_react["default"].createElement("p", null, project.description), /*#__PURE__*/_react["default"].createElement("p", null, project.technologies), /*#__PURE__*/_react["default"].createElement("a", {
+        href: project.liveUrl || ''
       }, project.images.length > 1 ? /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Carousel, {
+        fade: true // activeIndex={selectedIndex}
+        // onSelect={() => {
+        //   () => handleSelect(idx, project.images.length);
+        // }}
+        ,
         variant: "dark"
       }, project.images.map(function (imgSrc) {
         return /*#__PURE__*/_react["default"].createElement(_reactBootstrap.Carousel.Item, null, /*#__PURE__*/_react["default"].createElement("img", {
@@ -48996,14 +49005,16 @@ var App = function App() {
         }));
       })) : /*#__PURE__*/_react["default"].createElement("img", {
         src: project.images[0]
-      }))), project.liveUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
+      })), /*#__PURE__*/_react["default"].createElement("div", {
+        id: "links"
+      }, project.liveUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
         href: project.liveUrl
-      }, "view live site")) : '', project.githubUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
+      }, "live")) : '', project.githubUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
         href: project.githubUrl
-      }, "view source code on github")) : '', project.videoUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
+      }, "code")) : '', project.videoUrl ? /*#__PURE__*/_react["default"].createElement("p", null, /*#__PURE__*/_react["default"].createElement("a", {
         href: project.videoUrl
-      }, "video presentation")) : '');
-    }), /*#__PURE__*/_react["default"].createElement("hr", null))), /*#__PURE__*/_react["default"].createElement("hr", null));
+      }, "video")) : ''));
+    }), /*#__PURE__*/_react["default"].createElement("hr", null)));
   })));
 };
 

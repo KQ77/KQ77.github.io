@@ -16,7 +16,7 @@ export const projects = {
       ],
     },
   ],
-  Personal: [
+  'Personal / Academic': [
     {
       title: 'Q BOOK CLUBS',
       description:
@@ -33,7 +33,11 @@ export const projects = {
         'Group Project: Design a custom, virtual escape room, or play a pre-made game',
       technologies:
         'React, React-Router, React-Redux, Webpack, Express, Postgres, Sequelize, JWT',
-      images: ['/images/puzzlethumbnail.png'],
+      images: [
+        '/images/puzzlethumbnail.png',
+        '/images/puzzle-break2.png',
+        '/images/puzzlebreak3.png',
+      ],
       githubUrl: 'https://github.com/escape-room-capstone/escape-room.git',
       liveUrl: 'http://puzzle-break.herokuapp.com/home',
       videoUrl: 'https://youtu.be/qO-k2z-BG_4',
