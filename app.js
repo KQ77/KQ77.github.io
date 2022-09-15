@@ -95,33 +95,45 @@ const App = () => {
         {Object.keys(projects).map((projectType, index) => (
           <div key={index}>
             <h2>{projectType}</h2>
-            <div id="project-wrapper">
+            <div
+              id="project-wrapper"
+              style={{ background: index % 2 === 0 ? 'white' : 'lightgrey' }}
+            >
               {projects[projectType].map((project, idx) => (
                 <div id="project-info" key={idx}>
                   <h2>{project.title}</h2>
                   <p>{project.description}</p>
                   <p>{project.technologies}</p>
 
-                  <a href={project.liveUrl || ''}>
-                    {project.images.length > 1 ? (
-                      <Carousel
-                        fade
-                        // activeIndex={selectedIndex}
-                        // onSelect={() => {
-                        //   () => handleSelect(idx, project.images.length);
-                        // }}
-                        variant="dark"
-                      >
-                        {project.images.map((imgSrc) => (
-                          <Carousel.Item>
-                            <img className="d-block w-100" src={imgSrc} />
-                          </Carousel.Item>
-                        ))}
-                      </Carousel>
-                    ) : (
-                      <img src={project.images[0]}></img>
-                    )}
-                  </a>
+                  {/* <a href={project.images[0]}> */}
+                  {project.images.length > 1 ? (
+                    <Carousel
+                      fade
+                      // activeIndex={selectedIndex}
+                      // onSelect={() => {
+                      //   () => handleSelect(idx, project.images.length);
+                      // }}
+                      variant="dark"
+                    >
+                      {project.images.map((imgSrc) => (
+                        <Carousel.Item>
+                          <a href={imgSrc}>
+                            <img
+                              // onClick={() => {
+                              //   console.log('image clicked');
+                              //   window.location.href = { imgSrc };
+                              // }}
+                              className="d-block w-100"
+                              src={imgSrc}
+                            />
+                          </a>
+                        </Carousel.Item>
+                      ))}
+                    </Carousel>
+                  ) : (
+                    <img src={project.images[0]}></img>
+                  )}
+                  {/* </a> */}
 
                   <div id="links">
                     {project.liveUrl ? (
@@ -154,10 +166,23 @@ const App = () => {
           </div>
         ))}
       </section>
-      {/* <section id="contact">
-        <div>linkedIn</div>
-        <div>email</div>
-      </section> */}
+      <section id="contact">
+        <div>
+          <a href="http://www.linkedin.com/in/kate-q-5b425034/">
+            <img src="/images/linkedin.png"></img>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/KQ77">
+            <img src="/images/GitHub-logo.png"></img>
+          </a>
+        </div>
+        <div>
+          <a href="mailto:katequinn7@gmail.com">
+            <img src="/images/email-icon.png"></img>
+          </a>
+        </div>
+      </section>
     </div>
   );
 };

@@ -50,6 +50,7 @@
   text-align: center;
 }
 #about > div {
+  color: #666363;
   width: 50%;
   background-color: 'lightgrey';
 }
@@ -85,7 +86,7 @@
 }
 
 #project-wrapper > div {
-  width: 27%;
+  width: 37%;
   /* height: 25rem; */
   background: #edeeee;
   padding: 0.5rem;
@@ -145,4 +146,17 @@ hr {
 
 .carousel-control-next-icon {
   filter: none;
+}
+
+#contact {
+  padding: 2rem;
+  background: white;
+  min-height: 15rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact img {
+  height: 5rem;
+  width: auto;
 }

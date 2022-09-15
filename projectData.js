@@ -23,7 +23,11 @@ export const projects = {
         'Solo project: Inspired by Amazon Book Clubs, but with additional user features',
       technologies:
         'React, React-Router, React-Redux, Express, Webpack, Postgres, Sequelize, JWT',
-      images: ['/images/qbshot.png'],
+      images: [
+        '/images/qbshot.png',
+        '/images/bookclub.png',
+        '/images/bookclub2.png',
+      ],
       githubUrl: 'https://github.com/KQ77/reads-and-weeds.git',
       liveUrl: 'http://q-bookclubs.herokuapp.com/',
     },
