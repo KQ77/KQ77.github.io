@@ -56,11 +56,12 @@
 }
 
 #about > div > p {
-  width: 90%;
+  width: 80%;
   font-size: 1.4rem;
 }
 #about > div:nth-child(2) {
-  padding: 1rem;
+  padding: 5rem;
+  width: 65%;
 }
 
 #about > div > img {
@@ -79,7 +80,7 @@
 }
 
 #project-wrapper {
-  padding: 0.5rem;
+  padding: 4.5rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -87,7 +88,7 @@
 
 #project-wrapper > div {
   width: 30%;
-  /* height: 25rem; */
+  border-radius: 5px;
   background: #edeeee;
   padding: 0.5rem;
   margin: 1rem auto;
@@ -107,7 +108,7 @@
 }
 
 #project-wrapper > div img {
-  height: 15rem;
+  /* height: 15rem; */
   width: 100%;
 }
 
@@ -118,6 +119,20 @@
 /* #project-info > div:nth-child(1) {
  height: 20rem;
 } */
+#project-info.professional {
+  font-size: 1.4rem;
+  width: 60%;
+  height: auto;
+}
+#project-info.professional img {
+  height: 40rem;
+}
+#project-info.professional h2 {
+  font-size: 2.3rem;
+}
+#project-info.professional p {
+  font-size: 1.5rem;
+}
 #project-info h2 {
   font-size: 1.5rem;
 }
@@ -132,7 +147,7 @@ hr {
 }
 
 .d-block {
-  height: 15rem;
+  height: 20rem;
 }
 
 #links {

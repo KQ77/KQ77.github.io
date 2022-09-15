@@ -85,7 +85,7 @@ const App = () => {
             of problem-solving from humans to code.
           </p>
           <p>
-            I'm commited to lifelong learning, and I look forward to my next
+            I'm committed to lifelong learning, and I look forward to my next
             project pushing that even futher.
           </p>
         </div>
@@ -100,7 +100,13 @@ const App = () => {
               style={{ background: index % 2 === 0 ? 'white' : 'lightgrey' }}
             >
               {projects[projectType].map((project, idx) => (
-                <div id="project-info" key={idx}>
+                <div
+                  id="project-info"
+                  key={idx}
+                  className={
+                    projectType === 'Professional' ? 'professional' : ''
+                  }
+                >
                   <h2>{project.title}</h2>
                   <p>{project.description}</p>
                   <p>{project.technologies}</p>
