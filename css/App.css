@@ -86,7 +86,7 @@
 }
 
 #project-wrapper > div {
-  width: 37%;
+  width: 30%;
   /* height: 25rem; */
   background: #edeeee;
   padding: 0.5rem;
@@ -149,7 +149,7 @@ hr {
 }
 
 #contact {
-  padding: 2rem;
+  padding: 4rem;
   background: white;
   min-height: 15rem;
   display: flex;
@@ -157,6 +157,6 @@ hr {
 }
 
 #contact img {
-  height: 5rem;
+  height: 6rem;
   width: auto;
 }
