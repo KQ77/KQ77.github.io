@@ -80,14 +80,14 @@
 }
 
 #project-wrapper {
-  padding: 4.5rem;
+  padding: 3rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
 
 #project-wrapper > div {
-  width: 30%;
+  width: calc(50% - 2rem);
   border-radius: 5px;
   background: #edeeee;
   padding: 0.5rem;
@@ -99,7 +99,7 @@
 #projects h2 {
   text-align: center;
   font-size: 2.5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 #projects > h2 {
   text-align: center;
@@ -134,7 +134,8 @@
   font-size: 1.5rem;
 }
 #project-info h2 {
-  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 #project-info > p {
   font-size: 1.1rem;
