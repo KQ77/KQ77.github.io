@@ -129,7 +129,8 @@ const App = () => {
                               //   console.log('image clicked');
                               //   window.location.href = { imgSrc };
                               // }}
-                              className="d-block w-100"
+                              id="carousel-image"
+                              className="d-block w-80"
                               src={imgSrc}
                             />
                           </a>
